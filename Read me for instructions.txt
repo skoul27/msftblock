@@ -1,0 +1,13 @@
+Steps:
+
+1. Go to Devices > Windows > Configuration Policies
+2. Create New
+3. Platform: Win 10 and late
+4. Profile type: Templates
+5. Custom > Create
+
+
+OMA-URI Settings::
+
+OMA URI: ./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/Native/StoreApps/Policy
+Data type: String (XML file) and upload the msftlock.xml
